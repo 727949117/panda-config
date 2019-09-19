@@ -44,7 +44,7 @@ redis:
 ribbon:
   eager-load:
     enabled: true
-    clients: panda-auth,panda-user-service
+    clients: micro-auth,micro-user-service
   Httpclient:
     enabled: true
   OkHttp:
