@@ -21,8 +21,8 @@ ignore:
 
 swagger:
   client:
-    - micro-user-service
-    - micro-gen-service
+    - panda-user-service
+    - panda-gen-service
 # 关闭默认路由
 zuul:
   ignoredServices: '*'
